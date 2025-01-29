@@ -5,5 +5,6 @@ namespace Personal_profiling_and_Assistance.Data.Models
     {
         [Key]
         public int Id { get; set; }
+        public string Name { get; set; }
     }
 } 
