@@ -22,5 +22,10 @@ namespace Personal_profiling_and_Assistance.Data.Models
         public string UserName { get; set; }
         public string Gender { get; set; }
 
+        public Test test { get; set; }
+        // public ICollection<Test> Tests { get; set; } // Navigation property i don't know this line 
+
+
+
     }
 }
